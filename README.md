@@ -15,7 +15,7 @@ The first endpoint is `rates`.
 This path takes a `PUT` where rate information can be updated by submitting a modified rates JSON. This submitted JSON overwrites the stored rates.
 
 - A rate is comprised of a price, time range the rate is valid, and days of the week the rate applies to
-- See the section `Sample JSON for testing` for the initial set of rates.
+- See the section `Sample JSON for testing` for the initial set of seeded rates. These rates are expected to be loaded into the database at application startup.
 
 This path when requested with a `GET` returns the rates stored.
 
@@ -39,7 +39,7 @@ The second endpoint is `price`. It allows the user to request the price for a re
 - Rates will not span multiple days
 
 ### Application startup
-Rates are specified by a JSON file to be automatically loaded on start of the application. The format of this file is the same JSON structure that can be submitted to the `rates` endpoint.
+Rates are specified by a JSON file to be automatically loaded on start of the application. The format of this file is the same JSON structure that can be submitted to the `rates` endpoint. The values for these rates can be found in the `Sample JSON for testing` section below.
 
 ## Other Requirements
 
