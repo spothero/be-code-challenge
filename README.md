@@ -47,7 +47,7 @@ Rates are specified by a JSON file to be automatically loaded on start of the ap
   * If you are planning on using a different language, please let the recruiting team know your language of choice
 - API endpoints must be documented
 - Tests need to be in place
-- There must be documentation that one can follow the get the application up and running
+- There must be documentation that one can follow to run the application
 - We will be running automated requests against your submission. Please take care to follow the requirements laid out.
 
 ## Extra Credit
