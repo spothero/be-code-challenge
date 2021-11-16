@@ -34,8 +34,8 @@ The second endpoint is `price`. It allows the user to request the price for a re
     ```
 
 ##### Response Requirements
-- User input can span more than one day, but the API mustn't return a valid price  - it must return `unavailable`
-- User input can span multiple rates, but the API mustn't return a valid price - it must return `unavailable`
+- User input can span more than one day, but the API mustn't return a valid price  - it must return `"unavailable"`
+- User input can span multiple rates, but the API mustn't return a valid price - it must return `"unavailable"`
 - Rates will not span multiple days
 
 ### Application startup
