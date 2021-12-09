@@ -43,18 +43,12 @@ Rates are specified by a JSON file to be automatically loaded on start of the ap
 
 ## Other Requirements
 
+- There must be documentation that one can follow to run the application
+- API endpoints must be clearly documented
+- Tests need to be in place
+- We will be running automated requests against your submission. Please take care to follow the requirements laid out.
 - Preferred languages are Python, Kotlin, Java, or Go to complete this
   * If you are planning on using a different language, please let the recruiting team know your language of choice
-- API endpoints must be documented
-- Tests need to be in place
-- There must be documentation that one can follow to run the application
-- We will be running automated requests against your submission. Please take care to follow the requirements laid out.
-
-## Extra Credit
-
-- Include a Swagger Spec
-- Include a Dockerfile
-- Metrics for endpoint(s) captured and available to be queried via an endpoint (e.g. average response time). Add the metrics you feel would be appropriate to identify the health and performance of your application
 
 ## Submitting
 
@@ -111,3 +105,10 @@ Datetime ranges must be specified in ISO-8601 format.  A rate must completely en
 * `2015-07-01T07:00:00-05:00` to `2015-07-01T12:00:00-05:00` must yield `{'price': 1750}`
 * `2015-07-04T15:00:00+00:00` to `2015-07-04T20:00:00+00:00` must yield `{'price': 2000}`
 * `2015-07-04T07:00:00+05:00` to `2015-07-04T20:00:00+05:00` must yield `"unavailable"`
+
+## Assessment
+
+Members of our backend team will ensure your code meets the functional criteria
+and score the submission based on project design, language/framework best
+practices, code cleanliness and organization, ease of use, packaging,
+documentation, and testing practices.
