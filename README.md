@@ -94,7 +94,7 @@ Rates are specified by a JSON file to be automatically loaded on start of the ap
 }
 
 ```
-The timezones specified in the JSON file adhere to the 2017c version of the tz database. Assume that there could be other (non America/Chicago) timezones specified. For more information: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+The timezones specified in the JSON file adhere to the current version of the tz database. Assume that there could be other (non America/Chicago) timezones specified. For more information: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 Assume that rates in this file will never overlap
 
