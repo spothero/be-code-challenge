@@ -2,7 +2,7 @@
 
 ------------
 ## The Application
-Build an API that allows a user to enter a date time range and get back the price at which they would be charged to park for that time span
+Build an API that allows a user to enter a date time range and get back the price at which they would be charged to park for that time span.
 
 ### API Endpoints
 - The application publishes an API with two endpoints that computes a price for an input datetime range.
@@ -47,8 +47,8 @@ Rates are specified by a JSON file to be automatically loaded on start of the ap
 - API endpoints must be clearly documented
 - Tests need to be in place
 - We will be running automated requests against your submission. Please take care to follow the requirements laid out.
-- Preferred languages are Python, Kotlin, Java, or Go to complete this
-  * If you are planning on using a different language, please let the recruiting team know your language of choice
+- Preferred languages are Python, Kotlin, Java, or Go but may vary from squad to squad
+  * Please let the recruiting team know your language of choice
 
 ## Submitting
 
